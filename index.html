@@ -1,50 +1,116 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>replit</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>replit</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
-</head>
+  <body class="bg-dark">
+    <!-- Header -->
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand ps-3" href="/index.html"
+          ><span class="explode">&lt;/ojowAA></span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active ps-4" href="/index.html">Home</a>
+            <a class="nav-link disabled ps-4" aria-disabled="true" href="#">Projects</a>
+            <a class="nav-link disabled ps-4" aria-disabled="true" href="#">3D Models</a>
+            <a class="nav-link disabled ps-4" aria-disabled="true" href="#">About</a>
+          </div>
+        </div>
+      </div>
+    </nav>
 
-<body class="bg-dark">
-  Hello world
-  
-  <footer class="bg-secondary text-center">
-    <!-- Grid container -->
-    <div class="container p-4 pb-0">
-      <!-- Section: Social media -->
-      <section class="mb-4">
-        <!-- Linkedin -->
-        <a
-          data-mdb-ripple-init
-          class="btn text-white btn-floating m-1"
-          style="background-color: #0082ca;"
-          href="#!"
-          role="button"
-          ><i class="fab fa-linkedin-in"></i
-        ></a>
-        <!-- Github -->
-        <a
-          data-mdb-ripple-init
-          class="btn text-white btn-floating m-1"
-          style="background-color: #333333;"
-          href="https://github.com/OjowAA"
-          role="button"
-          ><i class="fab fa-github"></i
-        ></a>
-      </section>
-    </div>
+      <!-- Main Picture -->
+      <div class="text-center vh-100">
+        <div class="particles position-absolute inset-0 pointer-events-none w-100" aria-hidden="true">
+            <canvas data-particle-animation></canvas>
+        </div>
+        <div class="reletive d-flex justify-content-center align-items-center h-100">
+          <div class="text-white bg-black opacity-75 p-4 border rounded border-primary">
+            <h1 class="mb-3">Portfolio Website</h1>
+            <h5 class="mb-4">Random text to make this part seem important some how.</h5>
+            <a
+              data-mdb-ripple-init
+              class="btn btn-outline-light btn-lg m-2"
+              href="#"
+              role="button"
+              rel="nofollow"
+              target="_blank"
+            >Explore</a>
+          </div>
+        </div>
+    </header>
 
-    <!-- Signiture -->
-    <div class="text-center p-3 text-white bg-primary">
-      Author: Andre Aritan
-    </div>
-  </footer>
-  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
+    <!-- Footer -->
+    <footer class="bg-primary text-center">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Linkedin -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #0082ca"
+            href="#!"
+            role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <!-- Github -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #333333"
+            href="https://github.com/OjowAA"
+            role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+      </div>
 
+      <!-- Signiture -->
+      <div
+        class="text-center p-3 text-white"
+        style="background-color: rgba(0, 0, 0, 0.1)"
+      >
+        Created By: Andre Aritan
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="scripts/particle-animation.js"></script>
+  </body>
 </html>

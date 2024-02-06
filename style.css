@@ -1,0 +1,37 @@
+html{
+  width: 100%;
+}
+
+.explode{
+  position: relative;
+  transition: 0.5s .1s;
+  left:0px;
+}
+
+.explode:hover{
+  position: relative;
+  letter-spacing: 3px;
+  left:-10px;
+}
+
+/* .main-image{
+  background: 
+   linear-gradient(to top left,
+      rgba(0,0,0,1) 0%,
+      rgba(0,0,0,1) 50%,
+      rgba(0,0,0,0) 50%,
+      rgba(0,0,0,0) 100%);
+  background-repeat: no-repeat;
+  height: 400px;
+} */
+/* 
+@media (min-width: 1321px) {
+  .main-image {
+    background-size: 100%;
+    height: 600px;
+  }
+} */
+.particles{
+  background: radial-gradient(ellipse at bottom, #422957, transparent),radial-gradient(ellipse at top, #2a2b4b, transparent),radial-gradient(ellipse at left, #0d071d, transparent),radial-gradient(ellipse at right, #040c1f, transparent);
+  height: 100%;
+}
